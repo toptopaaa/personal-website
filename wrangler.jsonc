@@ -1,0 +1,30 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "toptopaaa",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-11-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "toptopaaa-production",
+      "database_id": "TODO_CLOUDFLARE_D1_DATABASE_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "WORK",
+      "bucket_name": "work"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "toptopaaa.com",
+      "custom_domain": true
+    }
+  ]
+}

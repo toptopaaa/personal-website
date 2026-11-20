@@ -1,0 +1,3626 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "YKsGt",
+      "x": 0,
+      "y": 0,
+      "name": "Welcome to pen.dev",
+      "clip": true,
+      "width": 1000,
+      "height": 1458,
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "Lmqy1",
+          "x": 38,
+          "y": 297,
+          "name": "Start here",
+          "fill": "#ff8303ff",
+          "textGrowth": "fixed-width-height",
+          "width": 923,
+          "height": 307,
+          "content": "Ask agent to \ndesign something",
+          "lineHeight": 1.399999976158142,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans",
+          "fontSize": 100,
+          "fontWeight": "500",
+          "letterSpacing": -4
+        },
+        {
+          "type": "path",
+          "id": "AmD9T",
+          "x": 267.8010819142764,
+          "y": 632,
+          "rotation": -45,
+          "geometry": "M7 0l0 14m7-7l-7 7-7-7",
+          "width": 366,
+          "height": 366,
+          "stroke": "#ff8302ff",
+          "strokeWidth": 50,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "aApMb",
+      "x": 1100,
+      "y": 0,
+      "name": "Axiom Factory Control Panel",
+      "clip": true,
+      "width": 1440,
+      "height": 1000,
+      "fill": "#10171B",
+      "children": [
+        {
+          "type": "frame",
+          "id": "UxvMa",
+          "name": "Primary Navigation",
+          "width": 224,
+          "height": "fill_container",
+          "fill": "#121B1F",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            28,
+            20
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "z0vWd",
+              "name": "Axiom Brand",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "a2TYq",
+                  "name": "Axiom Robot Mark",
+                  "width": 28,
+                  "height": 28,
+                  "icon": "bot",
+                  "library": "lucide",
+                  "fill": "#C6F36A"
+                },
+                {
+                  "type": "frame",
+                  "id": "qgcE6",
+                  "name": "Brand Name",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T3pP0",
+                      "name": "Brand Axiom",
+                      "fill": "#E9F0F1",
+                      "content": "AXIOM",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1.6
+                    },
+                    {
+                      "type": "text",
+                      "id": "N2Umd8",
+                      "name": "Brand Descriptor",
+                      "fill": "#91A0A6",
+                      "content": "ROBOTICS / OS",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 9,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "u8rF7l",
+              "name": "Operations Navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 7,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uSVE0",
+                  "name": "Navigation Label",
+                  "fill": "#708087",
+                  "content": "OPERATIONS",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.3
+                },
+                {
+                  "type": "frame",
+                  "id": "x84TuB",
+                  "name": "Overview Navigation Item",
+                  "width": "fill_container",
+                  "fill": "#28383D",
+                  "cornerRadius": 5,
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "m6EcGF",
+                      "name": "Overview Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "layout-dashboard",
+                      "library": "lucide",
+                      "fill": "#C6F36A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ba7na",
+                      "name": "Overview Label",
+                      "fill": "#E9F0F1",
+                      "content": "Overview",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "c1YPa",
+                  "name": "Floor map Navigation Item",
+                  "width": "fill_container",
+                  "fill": "#121B1F",
+                  "cornerRadius": 5,
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Jx1fR",
+                      "name": "Floor map Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "map",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W6eZV",
+                      "name": "Floor map Label",
+                      "fill": "#91A0A6",
+                      "content": "Floor map",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qmUUd",
+                  "name": "Fleet Navigation Item",
+                  "width": "fill_container",
+                  "fill": "#121B1F",
+                  "cornerRadius": 5,
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "p39b01",
+                      "name": "Fleet Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "bot",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "B6GKk4",
+                      "name": "Fleet Label",
+                      "fill": "#91A0A6",
+                      "content": "Fleet",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vrqoh",
+                  "name": "Production Navigation Item",
+                  "width": "fill_container",
+                  "fill": "#121B1F",
+                  "cornerRadius": 5,
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "yBKf3",
+                      "name": "Production Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "factory",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FUnX0",
+                      "name": "Production Label",
+                      "fill": "#91A0A6",
+                      "content": "Production",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "N5b3l",
+                  "name": "Quality Navigation Item",
+                  "width": "fill_container",
+                  "fill": "#121B1F",
+                  "cornerRadius": 5,
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hcocN",
+                      "name": "Quality Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "scan-line",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yJrOm",
+                      "name": "Quality Label",
+                      "fill": "#91A0A6",
+                      "content": "Quality",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "un96w",
+              "name": "System Navigation",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 7,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DjyHr",
+                  "name": "System Label",
+                  "fill": "#708087",
+                  "content": "SYSTEM",
+                  "fontFamily": "IBM Plex Mono",
+                  "fontSize": 10,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.3
+                },
+                {
+                  "type": "frame",
+                  "id": "wnioj",
+                  "name": "Maintenance Navigation Item",
+                  "width": "fill_container",
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "S3fYl",
+                      "name": "Maintenance Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "wrench",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "q5yKK",
+                      "name": "Maintenance Label",
+                      "fill": "#91A0A6",
+                      "content": "Maintenance",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jzy9W",
+                  "name": "Reports Navigation Item",
+                  "width": "fill_container",
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "E7MRX0",
+                      "name": "Reports Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "chart-no-axes-column-increasing",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XoF94",
+                      "name": "Reports Label",
+                      "fill": "#91A0A6",
+                      "content": "Reports",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "l8kq5f",
+                  "name": "Settings Navigation Item",
+                  "width": "fill_container",
+                  "gap": 11,
+                  "padding": [
+                    10,
+                    11
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "e27Xtb",
+                      "name": "Settings Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "settings-2",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lB3j7",
+                      "name": "Settings Label",
+                      "fill": "#91A0A6",
+                      "content": "Settings",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i4TLDd",
+              "name": "Operator Profile",
+              "width": "fill_container",
+              "stroke": "#2B3A40",
+              "strokeWidth": {
+                "top": 1
+              },
+              "layout": "vertical",
+              "gap": 14,
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pWyUE",
+                  "name": "Operator Identity",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "J1hQ8F",
+                      "name": "Operator Avatar",
+                      "fill": "#33434A",
+                      "width": 32,
+                      "height": 32
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uKlwo",
+                      "name": "Operator Details",
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iO7Ev",
+                          "name": "Operator Name",
+                          "fill": "#E9F0F1",
+                          "content": "M. Sato",
+                          "fontFamily": "Geist",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "q7fIk",
+                          "name": "Operator Role",
+                          "fill": "#91A0A6",
+                          "content": "FLOOR LEAD",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BUAmu",
+          "name": "Main Operations Workspace",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            26,
+            30
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "HLmzy",
+              "name": "Operations Header",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ETvLV",
+                  "name": "Shift Context",
+                  "gap": 9,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "fM3sk",
+                      "name": "Simulation Status Dot",
+                      "fill": "#C6F36A",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "hqkKn",
+                      "name": "Simulation Status",
+                      "fill": "#C6F36A",
+                      "content": "LIVE SIMULATION",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "paz5Y",
+                      "name": "Context Separator",
+                      "fill": "#526167",
+                      "content": "/",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "l8EY8H",
+                      "name": "Shift Label",
+                      "fill": "#91A0A6",
+                      "content": "SHIFT 02  ·  SAT, NOV 21",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.4
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o32rM",
+                  "name": "Header Utilities",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "DYrLY",
+                      "name": "Notification Icon",
+                      "width": 17,
+                      "height": 17,
+                      "icon": "bell",
+                      "library": "lucide",
+                      "fill": "#91A0A6"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cImqj",
+                      "name": "Clock",
+                      "fill": "#E9F0F1",
+                      "content": "14:32:08",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DtYgZ",
+              "name": "Page Heading",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "n5kwJ",
+                  "name": "Page Title Group",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nujGK",
+                      "name": "Page Title",
+                      "fill": "#E9F0F1",
+                      "content": "Factory overview",
+                      "fontFamily": "Space Grotesk",
+                      "fontSize": 27,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.5
+                    },
+                    {
+                      "type": "text",
+                      "id": "P7Oj5l",
+                      "name": "Page Subtitle",
+                      "fill": "#91A0A6",
+                      "content": "Humanoid production floor  /  Bay 04",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qoAF6",
+                  "name": "Pause Line Action",
+                  "fill": "#342824",
+                  "cornerRadius": 4,
+                  "stroke": "#6A4535",
+                  "strokeWidth": 1,
+                  "gap": 8,
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "JuNKO",
+                      "name": "Pause Icon",
+                      "width": 13,
+                      "height": 13,
+                      "icon": "pause",
+                      "library": "lucide",
+                      "fill": "#F0A45D"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gDCpl",
+                      "name": "Pause Line Label",
+                      "fill": "#F0A45D",
+                      "content": "PAUSE LINE",
+                      "fontFamily": "IBM Plex Mono",
+                      "fontSize": 10,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nYHOd",
+              "name": "Production Metrics",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "t0Us72",
+                  "name": "CELLS ONLINE Metric",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ngBg6",
+                      "name": "CELLS ONLINE Metric Label Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j2VPOb",
+                          "name": "CELLS ONLINE Label",
+                          "fill": "#91A0A6",
+                          "content": "CELLS ONLINE",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Gstcx",
+                          "name": "CELLS ONLINE Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E9T2Rp",
+                      "name": "CELLS ONLINE Value Row",
+                      "gap": 9,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "E2olPv",
+                          "name": "CELLS ONLINE Value",
+                          "fill": "#E9F0F1",
+                          "content": "04 / 06",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 25,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gdfki",
+                          "name": "CELLS ONLINE Detail",
+                          "fill": "#91A0A6",
+                          "content": "2 in planned service",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A9P3u",
+                  "name": "OUTPUT THIS SHIFT Metric",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WgNkH",
+                      "name": "OUTPUT THIS SHIFT Metric Label Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ITmXC",
+                          "name": "OUTPUT THIS SHIFT Label",
+                          "fill": "#91A0A6",
+                          "content": "OUTPUT THIS SHIFT",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "icon",
+                          "id": "Zzwjm",
+                          "name": "OUTPUT THIS SHIFT Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "package-check",
+                          "library": "lucide",
+                          "fill": "#82B6C7"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wRfso",
+                      "name": "OUTPUT THIS SHIFT Value Row",
+                      "gap": 9,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "DaTvl",
+                          "name": "OUTPUT THIS SHIFT Value",
+                          "fill": "#E9F0F1",
+                          "content": "128",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 25,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W5pIRA",
+                          "name": "OUTPUT THIS SHIFT Detail",
+                          "fill": "#91A0A6",
+                          "content": "of 160 target units",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eBN8X",
+                  "name": "FLEET AVAILABILITY Metric",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PQbxD",
+                      "name": "FLEET AVAILABILITY Metric Label Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OtfU8",
+                          "name": "FLEET AVAILABILITY Label",
+                          "fill": "#91A0A6",
+                          "content": "FLEET AVAILABILITY",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "icon",
+                          "id": "gRhVt",
+                          "name": "FLEET AVAILABILITY Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "activity",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rYxID",
+                      "name": "FLEET AVAILABILITY Value Row",
+                      "gap": 9,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V3H34",
+                          "name": "FLEET AVAILABILITY Value",
+                          "fill": "#E9F0F1",
+                          "content": "96.8%",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 25,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xljnC",
+                          "name": "FLEET AVAILABILITY Detail",
+                          "fill": "#91A0A6",
+                          "content": "+1.4% vs prior shift",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I5jVer",
+                  "name": "ACTIVE EXCEPTIONS Metric",
+                  "width": "fill_container",
+                  "height": 92,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mHHLx",
+                      "name": "ACTIVE EXCEPTIONS Metric Label Row",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ngf0y",
+                          "name": "ACTIVE EXCEPTIONS Label",
+                          "fill": "#91A0A6",
+                          "content": "ACTIVE EXCEPTIONS",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 9,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "icon",
+                          "id": "hiZzQ",
+                          "name": "ACTIVE EXCEPTIONS Icon",
+                          "width": 15,
+                          "height": 15,
+                          "icon": "triangle-alert",
+                          "library": "lucide",
+                          "fill": "#F0A45D"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fWgEu",
+                      "name": "ACTIVE EXCEPTIONS Value Row",
+                      "gap": 9,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "j27lK",
+                          "name": "ACTIVE EXCEPTIONS Value",
+                          "fill": "#E9F0F1",
+                          "content": "02",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 25,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "awlti",
+                          "name": "ACTIVE EXCEPTIONS Detail",
+                          "fill": "#91A0A6",
+                          "content": "1 action required",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aCJGm",
+              "name": "Floor Map And Fleet",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SRkJN",
+                  "name": "Production Cell Map",
+                  "width": 760,
+                  "height": 366,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jL8sY",
+                      "name": "Cell Map Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s4ZZap",
+                          "name": "Map Title Block",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MN3QA",
+                              "name": "Map Title",
+                              "fill": "#E9F0F1",
+                              "content": "Cell status",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OsSXD",
+                              "name": "Map Subtitle",
+                              "fill": "#91A0A6",
+                              "content": "BAY 04  /  6 WORKCELLS",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 9,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CmKup",
+                          "name": "Cell Status Legend",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "av5Nv",
+                              "name": "RUNNING Legend Item",
+                              "gap": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "QtuSh",
+                                  "name": "RUNNING Legend Dot",
+                                  "fill": "#C6F36A",
+                                  "width": 6,
+                                  "height": 6
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "mF8Bh",
+                                  "name": "RUNNING Legend Text",
+                                  "fill": "#91A0A6",
+                                  "content": "RUNNING",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 8,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "haT9w",
+                              "name": "IDLE Legend Item",
+                              "gap": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "Bh5jn",
+                                  "name": "IDLE Legend Dot",
+                                  "fill": "#82B6C7",
+                                  "width": 6,
+                                  "height": 6
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "OyyhG",
+                                  "name": "IDLE Legend Text",
+                                  "fill": "#91A0A6",
+                                  "content": "IDLE",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 8,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O77wSW",
+                              "name": "SERVICE Legend Item",
+                              "gap": 5,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "pwv4l",
+                                  "name": "SERVICE Legend Dot",
+                                  "fill": "#F0A45D",
+                                  "width": 6,
+                                  "height": 6
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "puTMk",
+                                  "name": "SERVICE Legend Text",
+                                  "fill": "#91A0A6",
+                                  "content": "SERVICE",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 8,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zOx7v",
+                      "name": "Cell Map Grid",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 9,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aWtFo",
+                          "name": "Cell Map Row 1",
+                          "width": "fill_container",
+                          "gap": 9,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ftohs",
+                              "name": "A-01 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#C6F36A55",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "M7UDs",
+                                  "name": "A-01 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "wvvG6",
+                                      "name": "A-01 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "X0U1s",
+                                          "name": "A-01 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "bot",
+                                          "library": "lucide",
+                                          "fill": "#C6F36A"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "HhiwE",
+                                          "name": "A-01 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "A-01",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "H53sJ",
+                                      "name": "A-01 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "k6j3yu",
+                                          "name": "A-01 Status Dot",
+                                          "fill": "#C6F36A",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "jsjlC",
+                                          "name": "A-01 Status",
+                                          "fill": "#C6F36A",
+                                          "content": "RUNNING",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "jdA5r",
+                                  "name": "A-01 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Torso assembly",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "X8kwY",
+                                  "name": "A-01 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Unit H-042 · 82%",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "k9OLx",
+                                  "name": "A-01 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "V9bfA",
+                                      "name": "A-01 Progress Fill",
+                                      "fill": "#C6F36A",
+                                      "width": 82,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZYsT4",
+                              "name": "A-02 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#C6F36A55",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "GER4m",
+                                  "name": "A-02 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "g8qhN",
+                                      "name": "A-02 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "swhag",
+                                          "name": "A-02 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "bot",
+                                          "library": "lucide",
+                                          "fill": "#C6F36A"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "GMPCk",
+                                          "name": "A-02 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "A-02",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "y2mM3U",
+                                      "name": "A-02 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "bz89A",
+                                          "name": "A-02 Status Dot",
+                                          "fill": "#C6F36A",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "y8jOX",
+                                          "name": "A-02 Status",
+                                          "fill": "#C6F36A",
+                                          "content": "RUNNING",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "y0czy",
+                                  "name": "A-02 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Joint calibration",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "AyDci",
+                                  "name": "A-02 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Unit H-039 · 64%",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "EgeSN",
+                                  "name": "A-02 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "SErdC",
+                                      "name": "A-02 Progress Fill",
+                                      "fill": "#C6F36A",
+                                      "width": 64,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XvnDp",
+                              "name": "A-03 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#82B6C755",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "z9TjI",
+                                  "name": "A-03 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "rhob2",
+                                      "name": "A-03 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "BDlKe",
+                                          "name": "A-03 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "boxes",
+                                          "library": "lucide",
+                                          "fill": "#82B6C7"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "kDJC0",
+                                          "name": "A-03 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "A-03",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Tr5sA",
+                                      "name": "A-03 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "WEdSj",
+                                          "name": "A-03 Status Dot",
+                                          "fill": "#82B6C7",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "MT8Hy",
+                                          "name": "A-03 Status",
+                                          "fill": "#82B6C7",
+                                          "content": "IDLE",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "cXMFV",
+                                  "name": "A-03 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Parts staging",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "svDoO",
+                                  "name": "A-03 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Awaiting component kit",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "VmumM",
+                                  "name": "A-03 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "MUJNw",
+                                      "name": "A-03 Progress Fill",
+                                      "fill": "#82B6C7",
+                                      "width": 0,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wE7v4",
+                          "name": "Cell Map Row 2",
+                          "width": "fill_container",
+                          "gap": 9,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "TiE3a",
+                              "name": "B-01 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#C6F36A55",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "mo7yS",
+                                  "name": "B-01 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "LeEjv",
+                                      "name": "B-01 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "g2UBA",
+                                          "name": "B-01 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "scan-line",
+                                          "library": "lucide",
+                                          "fill": "#C6F36A"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "N9qSo",
+                                          "name": "B-01 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "B-01",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "sYAor",
+                                      "name": "B-01 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "o29vR",
+                                          "name": "B-01 Status Dot",
+                                          "fill": "#C6F36A",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "JRyAj",
+                                          "name": "B-01 Status",
+                                          "fill": "#C6F36A",
+                                          "content": "RUNNING",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q9S4j",
+                                  "name": "B-01 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Vision inspection",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "iGJ7p",
+                                  "name": "B-01 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Unit H-041 · 91%",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "L6h5GN",
+                                  "name": "B-01 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "O5fSl",
+                                      "name": "B-01 Progress Fill",
+                                      "fill": "#C6F36A",
+                                      "width": 47,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aLKbG",
+                              "name": "B-02 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#F0A45D55",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "YbtiZ",
+                                  "name": "B-02 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "pixuk",
+                                      "name": "B-02 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "VNCdt",
+                                          "name": "B-02 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "activity",
+                                          "library": "lucide",
+                                          "fill": "#F0A45D"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "i7l2n",
+                                          "name": "B-02 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "B-02",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "qcXTy",
+                                      "name": "B-02 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "ip4OH",
+                                          "name": "B-02 Status Dot",
+                                          "fill": "#F0A45D",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "iRkTD",
+                                          "name": "B-02 Status",
+                                          "fill": "#F0A45D",
+                                          "content": "SERVICE",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "vitwx",
+                                  "name": "B-02 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Gait validation",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "G2Ojky",
+                                  "name": "B-02 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Scheduled · 18 min",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tyJLI",
+                                  "name": "B-02 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "u1zpo",
+                                      "name": "B-02 Progress Fill",
+                                      "fill": "#F0A45D",
+                                      "width": 45,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iN0Mn",
+                              "name": "B-03 Workcell",
+                              "width": "fill_container",
+                              "height": 126,
+                              "fill": "#1B282D",
+                              "cornerRadius": 4,
+                              "stroke": "#C6F36A55",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
+                              "gap": 7,
+                              "padding": 12,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Y6e3y",
+                                  "name": "B-03 Header",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "xTxGI",
+                                      "name": "B-03 Cell Identity",
+                                      "gap": 7,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "BgOXg",
+                                          "name": "B-03 Cell Icon",
+                                          "width": 14,
+                                          "height": 14,
+                                          "icon": "bot",
+                                          "library": "lucide",
+                                          "fill": "#C6F36A"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "ewT2E",
+                                          "name": "B-03 Station ID",
+                                          "fill": "#E9F0F1",
+                                          "content": "B-03",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 10,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "ZI7ZC",
+                                      "name": "B-03 Status Badge",
+                                      "fill": "#111A1E",
+                                      "cornerRadius": 3,
+                                      "gap": 4,
+                                      "padding": [
+                                        3,
+                                        6
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "csLkc",
+                                          "name": "B-03 Status Dot",
+                                          "fill": "#C6F36A",
+                                          "width": 5,
+                                          "height": 5
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "TfcVR",
+                                          "name": "B-03 Status",
+                                          "fill": "#C6F36A",
+                                          "content": "RUNNING",
+                                          "fontFamily": "IBM Plex Mono",
+                                          "fontSize": 8,
+                                          "fontWeight": "normal"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "spDTb",
+                                  "name": "B-03 Station Name",
+                                  "fill": "#E9F0F1",
+                                  "content": "Final integration",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "YyA5T",
+                                  "name": "B-03 Assignment",
+                                  "fill": "#91A0A6",
+                                  "content": "Unit H-037 · 47%",
+                                  "fontFamily": "Geist",
+                                  "fontSize": 9,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NuMQc",
+                                  "name": "B-03 Progress Track",
+                                  "width": "fill_container",
+                                  "height": 3,
+                                  "fill": "#324047",
+                                  "cornerRadius": 2,
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": 2,
+                                      "id": "gSgwk",
+                                      "name": "B-03 Progress Fill",
+                                      "fill": "#C6F36A",
+                                      "width": 64,
+                                      "height": 3
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k32EJS",
+                  "name": "Robot Fleet Panel",
+                  "width": "fill_container",
+                  "height": 366,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m0CwLv",
+                      "name": "Fleet Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "lP46l",
+                          "name": "Fleet Title Group",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kcOAb",
+                              "name": "Fleet Title",
+                              "fill": "#E9F0F1",
+                              "content": "Robot fleet",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "jKV8z",
+                              "name": "Fleet Subtitle",
+                              "fill": "#91A0A6",
+                              "content": "4 ASSIGNED  /  6 TOTAL",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 9,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "icon",
+                          "id": "GzGjm",
+                          "name": "Fleet Filter",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "list-filter",
+                          "library": "lucide",
+                          "fill": "#91A0A6"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yObqj",
+                      "name": "H-042 Fleet Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 9,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "OaRjd",
+                          "name": "H-042 Robot Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GpRAe",
+                          "name": "H-042 Robot Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "a0r8fg",
+                              "name": "H-042 Robot ID",
+                              "fill": "#E9F0F1",
+                              "content": "H-042  ·  Torso assembly",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "q0qoV0",
+                              "name": "H-042 Robot State",
+                              "fill": "#C6F36A",
+                              "content": "RUNNING",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "IHsuz",
+                          "name": "H-042 Battery",
+                          "fill": "#91A0A6",
+                          "content": "82%",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q8rp8",
+                      "name": "H-041 Fleet Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 9,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "b1hJ2",
+                          "name": "H-041 Robot Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PZP14",
+                          "name": "H-041 Robot Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t3dp0",
+                              "name": "H-041 Robot ID",
+                              "fill": "#E9F0F1",
+                              "content": "H-041  ·  Vision inspection",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "A4ySq",
+                              "name": "H-041 Robot State",
+                              "fill": "#C6F36A",
+                              "content": "RUNNING",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "NDSjl",
+                          "name": "H-041 Battery",
+                          "fill": "#91A0A6",
+                          "content": "91%",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WWMoE",
+                      "name": "H-039 Fleet Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 9,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "OMFxu",
+                          "name": "H-039 Robot Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aH2au",
+                          "name": "H-039 Robot Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "JFore",
+                              "name": "H-039 Robot ID",
+                              "fill": "#E9F0F1",
+                              "content": "H-039  ·  Joint calibration",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YJBpY",
+                              "name": "H-039 Robot State",
+                              "fill": "#C6F36A",
+                              "content": "RUNNING",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "F6bNlq",
+                          "name": "H-039 Battery",
+                          "fill": "#91A0A6",
+                          "content": "64%",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Q14pJt",
+                      "name": "H-037 Fleet Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 9,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "tQfrw",
+                          "name": "H-037 Robot Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Bn4ek",
+                          "name": "H-037 Robot Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "L3Y5C",
+                              "name": "H-037 Robot ID",
+                              "fill": "#E9F0F1",
+                              "content": "H-037  ·  Final integration",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AJUZj",
+                              "name": "H-037 Robot State",
+                              "fill": "#C6F36A",
+                              "content": "RUNNING",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "wKKbe",
+                          "name": "H-037 Battery",
+                          "fill": "#91A0A6",
+                          "content": "47%",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NwcV8",
+                      "name": "H-035 Fleet Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 9,
+                      "padding": [
+                        8,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "t2662",
+                          "name": "H-035 Robot Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "bot",
+                          "library": "lucide",
+                          "fill": "#F0A45D"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fFqlK",
+                          "name": "H-035 Robot Details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V41IK",
+                              "name": "H-035 Robot ID",
+                              "fill": "#E9F0F1",
+                              "content": "H-035  ·  Battery swap bay",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "YiTHq",
+                              "name": "H-035 Robot State",
+                              "fill": "#F0A45D",
+                              "content": "SERVICE",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.4
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dqmts",
+                          "name": "H-035 Battery",
+                          "fill": "#91A0A6",
+                          "content": "—",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "llBmi",
+              "name": "Shift Output And Safety",
+              "width": "fill_container",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OwWDK",
+                  "name": "Shift Output Panel",
+                  "width": 760,
+                  "height": 186,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OOu53",
+                      "name": "Output Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "UemgF",
+                          "name": "Output Title Group",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oUKlO",
+                              "name": "Output Title",
+                              "fill": "#E9F0F1",
+                              "content": "Shift output",
+                              "fontFamily": "Space Grotesk",
+                              "fontSize": 15,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "y3rWTX",
+                              "name": "Output Context",
+                              "fill": "#91A0A6",
+                              "content": "UNITS COMPLETED BY HOUR  ·  ILLUSTRATIVE",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal",
+                              "letterSpacing": 0.5
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "QGhqi",
+                          "name": "Output Total",
+                          "fill": "#C6F36A",
+                          "content": "128 / 160",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YsXpl",
+                      "name": "Hourly Production Bars",
+                      "width": "fill_container",
+                      "height": 94,
+                      "gap": 8,
+                      "justifyContent": "space_between",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NaFKn",
+                          "name": "Hour 7 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "zWFrs",
+                              "name": "Hour 7 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 32
+                            },
+                            {
+                              "type": "text",
+                              "id": "mLRVj",
+                              "name": "Hour 7 Label",
+                              "fill": "#91A0A6",
+                              "content": "7h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "i9qsB6",
+                          "name": "Hour 8 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "Cghwj",
+                              "name": "Hour 8 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 48
+                            },
+                            {
+                              "type": "text",
+                              "id": "REyvt",
+                              "name": "Hour 8 Label",
+                              "fill": "#91A0A6",
+                              "content": "8h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b6fVKN",
+                          "name": "Hour 9 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "fI4lG",
+                              "name": "Hour 9 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 57
+                            },
+                            {
+                              "type": "text",
+                              "id": "d8Ix5e",
+                              "name": "Hour 9 Label",
+                              "fill": "#91A0A6",
+                              "content": "9h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KedoO",
+                          "name": "Hour 10 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "qYTiZ",
+                              "name": "Hour 10 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 44
+                            },
+                            {
+                              "type": "text",
+                              "id": "OH3dD",
+                              "name": "Hour 10 Label",
+                              "fill": "#91A0A6",
+                              "content": "10h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tR1Mp",
+                          "name": "Hour 11 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "zC9u0",
+                              "name": "Hour 11 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 44
+                            },
+                            {
+                              "type": "text",
+                              "id": "leWCK",
+                              "name": "Hour 11 Label",
+                              "fill": "#91A0A6",
+                              "content": "11h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "C57zZq",
+                          "name": "Hour 12 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "hSCv8",
+                              "name": "Hour 12 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 76
+                            },
+                            {
+                              "type": "text",
+                              "id": "W3XLo",
+                              "name": "Hour 12 Label",
+                              "fill": "#91A0A6",
+                              "content": "12h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QoAwG",
+                          "name": "Hour 13 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "rOfR4",
+                              "name": "Hour 13 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 59
+                            },
+                            {
+                              "type": "text",
+                              "id": "zdhIf",
+                              "name": "Hour 13 Label",
+                              "fill": "#91A0A6",
+                              "content": "13h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bLTMY",
+                          "name": "Hour 14 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "mYnks",
+                              "name": "Hour 14 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 70
+                            },
+                            {
+                              "type": "text",
+                              "id": "nA1Rx",
+                              "name": "Hour 14 Label",
+                              "fill": "#91A0A6",
+                              "content": "14h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FWy3u",
+                          "name": "Hour 15 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "GiKaJ",
+                              "name": "Hour 15 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 72
+                            },
+                            {
+                              "type": "text",
+                              "id": "ctIR1",
+                              "name": "Hour 15 Label",
+                              "fill": "#91A0A6",
+                              "content": "15h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P2rGB",
+                          "name": "Hour 16 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "amPYO",
+                              "name": "Hour 16 Bar",
+                              "fill": "#C6F36A",
+                              "width": "fill_container",
+                              "height": 70
+                            },
+                            {
+                              "type": "text",
+                              "id": "L4Nb50",
+                              "name": "Hour 16 Label",
+                              "fill": "#91A0A6",
+                              "content": "16h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JhWJD",
+                          "name": "Hour 17 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "TWHGv",
+                              "name": "Hour 17 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 72
+                            },
+                            {
+                              "type": "text",
+                              "id": "i9tBa6",
+                              "name": "Hour 17 Label",
+                              "fill": "#91A0A6",
+                              "content": "17h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mJSSN",
+                          "name": "Hour 18 Production",
+                          "width": "fill_container",
+                          "height": 94,
+                          "layout": "vertical",
+                          "gap": 5,
+                          "justifyContent": "end",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": [
+                                2,
+                                2,
+                                0,
+                                0
+                              ],
+                              "id": "CrQR7",
+                              "name": "Hour 18 Bar",
+                              "fill": "#49636A",
+                              "width": "fill_container",
+                              "height": 76
+                            },
+                            {
+                              "type": "text",
+                              "id": "msVuB",
+                              "name": "Hour 18 Label",
+                              "fill": "#91A0A6",
+                              "content": "18h",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 8,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PriAd",
+                  "name": "Safety Interlocks Panel",
+                  "width": "fill_container",
+                  "height": 186,
+                  "fill": "#172126",
+                  "cornerRadius": 5,
+                  "stroke": "#2B3A40",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 11,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "z20Uy",
+                      "name": "Safety Header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AIpIv",
+                          "name": "Safety Title",
+                          "fill": "#E9F0F1",
+                          "content": "Safety interlocks",
+                          "fontFamily": "Space Grotesk",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "cqBaC",
+                          "name": "Safety Shield",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "shield-check",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w4yrm",
+                      "name": "Emergency stops Interlock Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "V07ep",
+                          "name": "Emergency stops State Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "circle-check",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o772XM",
+                          "name": "Emergency stops Label",
+                          "fill": "#91A0A6",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Emergency stops",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "JMYhl",
+                          "name": "Emergency stops State",
+                          "fill": "#C6F36A",
+                          "content": "6 / 6 armed",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 8,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S9q7vH",
+                      "name": "Perimeter scanners Interlock Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "VbWI6",
+                          "name": "Perimeter scanners State Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "scan",
+                          "library": "lucide",
+                          "fill": "#C6F36A"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VBZBL",
+                          "name": "Perimeter scanners Label",
+                          "fill": "#91A0A6",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Perimeter scanners",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "K892R",
+                          "name": "Perimeter scanners State",
+                          "fill": "#C6F36A",
+                          "content": "All zones clear",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 8,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HWmTo",
+                      "name": "Service lockout Interlock Row",
+                      "width": "fill_container",
+                      "stroke": "#2B3A40",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "p7Dvm2",
+                          "name": "Service lockout State Icon",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "lock-keyhole",
+                          "library": "lucide",
+                          "fill": "#F0A45D"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zW1NF",
+                          "name": "Service lockout Label",
+                          "fill": "#91A0A6",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Service lockout",
+                          "fontFamily": "Geist",
+                          "fontSize": 10,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "puKHU",
+                          "name": "Service lockout State",
+                          "fill": "#F0A45D",
+                          "content": "Bay B-02 active",
+                          "fontFamily": "IBM Plex Mono",
+                          "fontSize": 8,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "--sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2a2a30",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717a"
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF8400"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#B8B9B6",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#F2F3F0",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D93C15"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#666666",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "--font-primary": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "--font-secondary": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "--radius-none": {
+      "type": "number",
+      "value": 0
+    },
+    "--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "--color-success": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFE6E1"
+        },
+        {
+          "value": "#222924",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-success-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#004D1A"
+        },
+        {
+          "value": "#B6FFCE",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E9E3D8"
+        },
+        {
+          "value": "#291C0F",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#804200"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5DCDA"
+        },
+        {
+          "value": "#24100B",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8C1C00"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFDFE6"
+        },
+        {
+          "value": "#222229",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000066"
+        },
+        {
+          "value": "#B2B2FF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--radius-m": {
+      "type": "number",
+      "value": 16
+    }
+  },
+  "fileToken": "cba1f597-3aa6-4f25-b0da-7f531eec08cb"
+}
