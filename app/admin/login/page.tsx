@@ -1,6 +1,5 @@
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { hasOwnerSession } from "@/lib/auth/access";
 
 export const dynamic = "force-dynamic";
 
@@ -9,7 +8,9 @@ export default async function AdminLoginPage({
 }: {
   searchParams: Promise<{ error?: string }>;
 }) {
-  if (await hasOwnerSession()) {
+  const adminKey = process.env.ADMIN_KEY;
+  const cookieStore = await cookies();
+  if (adminKey && cookieStore.get("toptopaaa_admin")?.value === adminKey) {
     redirect("/admin");
   }
 
@@ -25,8 +26,8 @@ export default async function AdminLoginPage({
       redirect("/admin/login?error=1");
     }
 
-    const cookieStore = await cookies();
-    cookieStore.set("toptopaaa_admin", validKey, {
+    const store = await cookies();
+    store.set("toptopaaa_admin", validKey, {
       httpOnly: true,
       secure: true,
       sameSite: "lax",
