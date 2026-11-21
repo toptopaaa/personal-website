@@ -1,18 +1,20 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "personal-website",
-  "main": ".open-next/worker.js",
-  "compatibility_date": "2026-11-21",
-  "compatibility_flags": ["nodejs_compat"],
-  "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  },
-"d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "personal-website",
-      "database_id": "de9f1fa4-8ddd-4f2a-adf0-9efdb3955255"
+  // ...
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "persist": true
+    },
+    "issue_detection": {
+      "enabled": false
     }
-  ]
+  },
+  // ...
 }
