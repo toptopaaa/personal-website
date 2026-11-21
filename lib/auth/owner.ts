@@ -1,4 +1,4 @@
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { createRemoteJWKSet, jwtVerify } from "jose";
 import { isOwnerEmail, OWNER_EMAIL } from "@/lib/auth/policy";
@@ -7,6 +7,14 @@ const teamDomain = () => process.env.CF_ACCESS_TEAM_DOMAIN?.replace(/^https?:\/\
 const audience = () => process.env.CF_ACCESS_AUDIENCE;
 
 export async function hasOwnerSession(): Promise<boolean> {
+  const adminKey = process.env.ADMIN_KEY;
+  if (adminKey) {
+    const cookieStore = await cookies();
+    if (cookieStore.get("toptopaaa_admin")?.value === adminKey) {
+      return true;
+    }
+  }
+
   const requestHeaders = await headers();
   const jwt = requestHeaders.get("cf-access-jwt-assertion");
   const domain = teamDomain();
