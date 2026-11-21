@@ -6,8 +6,6 @@ import { getOwnerProjects } from "@/lib/data/projects";
 import { requireOwner } from "@/lib/auth/owner";
 import { statusView } from "@/lib/projects/schedule";
 
-// Halaman admin selalu dirender saat diminta. Datanya milik pemilik, jadi tidak boleh
-// dibuat atau di-cache saat build. Tanpa baris ini, build bisa gagal jika env backend belum terpasang.
 export const dynamic = "force-dynamic";
 
 export default async function AdminHome() {
