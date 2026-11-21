@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS projects (
   cover_height INTEGER,
   status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft', 'scheduled', 'published')),
   publish_at TEXT,
-  sort_order INTEGER NOT NULL DEFAULT 0,
+  sort_order INTEGER NOT NULL DEFAULT 1,
   created_at TEXT NOT NULL,
   updated_at TEXT NOT NULL
 );
