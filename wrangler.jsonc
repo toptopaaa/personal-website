@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "toptopaaa",
+  "name": "personal-website",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-11-21",
   "compatibility_flags": ["nodejs_compat"],
@@ -12,7 +12,7 @@
     {
       "binding": "DB",
       "database_name": "toptopaaa-production",
-      "database_id": "TODO_CLOUDFLARE_D1_DATABASE_ID"
+      "database_id": "de9f1fa4-8ddd-4f2a-adf0-9efdb3955255"
     }
   ],
   "r2_buckets": [
