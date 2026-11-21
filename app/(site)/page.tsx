@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { ContactCta } from "@/components/contact-cta";
 import { ExpertiseList } from "@/components/expertise-list";
 import { Hero } from "@/components/hero";
