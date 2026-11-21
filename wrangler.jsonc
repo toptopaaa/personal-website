@@ -11,10 +11,11 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "toptopaaa-production",
+      "database_name": "personal-website",
       "database_id": "de9f1fa4-8ddd-4f2a-adf0-9efdb3955255"
     }
-  "routes": [,
+  ],
+  "routes": [
     {
       "pattern": "toptopaaa.com",
       "custom_domain": true
